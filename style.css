@@ -97,10 +97,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.yoga-image {
-  max-width: 100px;
-}
-
 .primary-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -127,5 +123,13 @@ a:hover {
   }
   .weather-button {
     margin-bottom: 10px;
+  }
+  .main-page {
+    display: none;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
