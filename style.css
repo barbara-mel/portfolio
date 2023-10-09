@@ -81,6 +81,10 @@ a:hover {
   border: 1px solid var(--primary-color);
 }
 
+.info-about {
+  background: white !important;
+}
+
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -142,7 +146,7 @@ footer .social-links a:hover {
 }
 
 .about-section {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .about-section h1 {
@@ -157,6 +161,15 @@ footer .social-links a:hover {
 
 .about-section-content {
   margin: 30px;
+}
+
+.btn-branding {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
 @media (max-width: 390px) {
@@ -184,5 +197,10 @@ footer .social-links a:hover {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
