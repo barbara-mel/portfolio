@@ -1,6 +1,7 @@
 :root {
-  --primary-color: #173c51;
+  --primary-color: #29323b;
   --secondary-color: #f5f2fe;
+  --third-color: #fb7155;
   --header-color: #ffffff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -39,7 +40,7 @@ p {
 }
 
 a:hover {
-  color: #83cee0;
+  color: var(--third-color);
 }
 
 #yoga-text {
@@ -59,7 +60,7 @@ a:hover {
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 20px 40px;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -99,7 +100,7 @@ a:hover {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 22px;
   text-decoration: none;
 }
 
@@ -114,6 +115,30 @@ a:hover {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
+}
+
+footer {
+  background-size: auto;
+  padding: 10px;
+  margin: 60px 0;
+}
+
+.bottom-email-link {
+  margin: 20px;
+  padding: 20px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--third-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: #ffffff;
+  background: var(--primary-color);
 }
 
 @media (max-width: 390px) {
@@ -141,12 +166,5 @@ a:hover {
     display: block;
     text-align: center;
     margin: 0 20px;
-  }
-  body {
-    background: linear-gradient(
-      178.6deg,
-      rgb(232, 245, 253) 3.3%,
-      rgb(252, 253, 255) 109.6%
-    );
   }
 }
