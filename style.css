@@ -1,11 +1,17 @@
 :root {
   --primary-color: #173c51;
   --secondary-color: #f5f2fe;
+  --header-color: #ffffff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin-top: 100px;
+  background: linear-gradient(
+    0deg,
+    rgb(249, 251, 253) 0%,
+    rgb(236, 232, 245) 100%
+  );
 }
 
 h1,
@@ -43,6 +49,10 @@ a:hover {
 
 #yoga-text {
   text-align: justify !important;
+}
+
+.navbar {
+  background: var(--header-color) !important;
 }
 
 .navigation-links {
