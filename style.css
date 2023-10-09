@@ -126,7 +126,7 @@ a:hover {
 }
 
 footer {
-  margin: 60px 0;
+  margin: 80px 0;
 }
 
 .bottom-email-link {
@@ -187,7 +187,7 @@ footer .contact-box p {
 @media (max-width: 390px) {
   h1 {
     font-size: 60px;
-    margin-top: 10px;
+    margin: 40px;
   }
   h2 {
     font-size: 30px;
@@ -195,6 +195,10 @@ footer .contact-box p {
   }
   h3 {
     font-size: 18px;
+  }
+  p {
+    text-align: justify;
+    font-size: 14px;
   }
   body {
     margin-top: 100px;
@@ -214,5 +218,9 @@ footer .contact-box p {
   .about-section {
     text-align: center;
     padding: 0;
+  }
+
+  .barbara-photo {
+    width: 80%;
   }
 }
