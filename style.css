@@ -100,8 +100,8 @@ a:hover {
   margin: 10px;
 }
 
-.barbara-photo img {
-  border-radius: 50%;
+.barbara-photo {
+  border-radius: 2% !important;
 }
 
 .email-link {
